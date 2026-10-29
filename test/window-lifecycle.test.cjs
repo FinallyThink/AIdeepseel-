@@ -1,0 +1,3 @@
+const{test}=require('node:test');const assert=require('node:assert/strict');const{revealWindow}=require('../electron/window-lifecycle.cjs');
+test('reopening a minimized manager restores it before showing and focusing',()=>{const events=[];const win={isDestroyed:()=>false,isMinimized:()=>true,restore:()=>events.push('restore'),show:()=>events.push('show'),focus:()=>events.push('focus')};assert.equal(revealWindow(win),true);assert.deepEqual(events,['restore','show','focus']);});
+test('missing or destroyed manager is reported for recreation, not silently ignored',()=>{assert.equal(revealWindow(null),false);assert.equal(revealWindow({isDestroyed:()=>true}),false);});

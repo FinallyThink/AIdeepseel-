@@ -1,0 +1,37 @@
+{
+  "model": {
+    "visible": true,
+    "x": 45,
+    "y": 8,
+    "width": 50,
+    "height": 90
+  },
+  "chat": {
+    "visible": true,
+    "x": 3,
+    "y": 12,
+    "width": 32,
+    "height": 65
+  },
+  "music": {
+    "visible": true,
+    "x": 3,
+    "y": 80,
+    "width": 32,
+    "height": 17
+  },
+  "likes": {
+    "visible": false,
+    "x": 40,
+    "y": 2,
+    "width": 26,
+    "height": 12
+  },
+  "rice": {
+    "visible": false,
+    "x": 69,
+    "y": 2,
+    "width": 26,
+    "height": 12
+  }
+}

@@ -1,0 +1,17 @@
+node_modules/
+*.log
+.env
+dist/
+.smoke-profile/
+memory/sessions/
+memory/summaries/
+memory/summary-state.json
+memory/
+tools/collector-cert-*.json
+tools/live-preparation.json
+artifacts/
+tools/downloads/
+tools/DouyinBarrageGrab-v2.8.0/*.exe
+tools/DouyinBarrageGrab-v2.8.0/*.pfx
+tools/DouyinBarrageGrab-v2.8.0/*.cer
+tools/DouyinBarrageGrab-v2.8.0/crts/

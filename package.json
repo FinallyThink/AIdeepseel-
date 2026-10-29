@@ -1,0 +1,29 @@
+{
+  "name": "lanjing-live-studio",
+  "version": "0.2.0",
+  "private": true,
+  "description": "澜鲸 · 独立 AI 直播工作台",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "npm run build && node scripts/launch.cjs",
+    "dev": "node scripts/dev.cjs",
+    "build": "vite build",
+    "test": "node --test",
+    "smoke": "npm run build && node scripts/launch.cjs --smoke",
+    "smoke:music": "npm run build && node scripts/launch.cjs --smoke-music",
+    "bridge": "node src/main.js",
+    "demo": "node src/main.js --demo"
+  },
+  "dependencies": {
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "electron": "42.11.18",
+    "vite": "8.3.5"
+  }
+}

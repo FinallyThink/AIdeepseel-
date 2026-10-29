@@ -1,0 +1,14 @@
+{
+  "collectorUrl": "ws://127.0.0.1:8888",
+  "assistantUrl": "http://127.0.0.1:23339",
+  "tokenFile": "%APPDATA%/deepseek-desktop-pet/api-token.txt",
+  "roomId": "",
+  "enabled": false,
+  "replyChat": true,
+  "thankGifts": true,
+  "minIntervalMs": 3000,
+  "chatMaxAgeMs": 45000,
+  "giftMaxAgeMs": 180000,
+  "maxQueue": 50,
+  "blockedWords": []
+}

@@ -1,0 +1,3 @@
+[submodule "tools/cyber-xiaoya-danmaku"]
+	path = tools/cyber-xiaoya-danmaku
+	url = https://github.com/cyber-xiaoya/cyber-xiaoya-danmaku.git
