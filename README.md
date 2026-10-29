@@ -13,25 +13,25 @@
 
 ## 软件截图
 
-以下为软件离线演练模式的实际界面，弹幕和礼物使用演示数据。
+以下截图来自当前运行的软件，展示 Q 版动态角色和当前自定义布局。人物、背景与组件位置可在软件中调整，实际外观随配置变化。
 
 ### 直播工作台
 
 集中查看连接状态、回复队列、实时弹幕与展示端预览。
 
-![直播工作台](docs/screenshots/manager.png)
+![直播工作台](docs/screenshots/manager-current.jpg)
 
 ### 直播展示端
 
 人物、对话和语音字幕展示，可通过直播伴侣采集窗口。
 
-![直播展示端](docs/screenshots/display.png)
+![直播展示端](docs/screenshots/display-current.jpg)
 
-### 网易云点歌
+### 模型管理
 
-管理点歌队列、歌曲播放和音量。
+选择角色、预览动态动作并调整人物大小。
 
-![网易云点歌管理](docs/screenshots/music.png)
+![模型管理](docs/screenshots/models.jpg)
 
 ## 环境要求
 
